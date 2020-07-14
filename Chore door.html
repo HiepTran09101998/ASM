@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+        div.logo {
+            width: 900px;
+            height: 100px;
+        }
+        div.logo > img{
+            width: 100%;
+            height: 100%;
+            background-color: aqua;
+            text-align: center;
+            margin-left: 100px;
+        }
+        div.container {
+            width: 900px;
+            height: auto;
+        }
+        div.container div.star{
+            width: 100%;
+            height: 100%;
+            background-color: #01005A;
+            text-align: center;
+            margin-left: 100px;
+            color: aqua;
+        }
+        div.container div.star > img {
+            padding: 30px 0px 0px 0px;
+        }
+        div.container div.section ul{
+            width: 100%;
+            height: 100%;
+            background-color: #01005A;
+            margin-left: 100px;
+        }
+        div.container div.footer{
+            width: 100%;
+            height: 100%;
+            background-color: #01005A;
+            margin-left: 100px;
+            text-align: center;
+        }
+        div.container div.footer img{
+            padding: 10px 10px;
+        }
+        div.container div.section li{
+            list-style: none;
+            color: white;
+            padding: 10px 0px 20px 200px;
+            line-height: 2.5;
+        }
+        div.container div.footer-1 {
+            width: 100%;
+            height: 100%;
+            background-color: #01005A;
+            margin-left: 100px;
+            text-align: center;
+        }
+        div.container div.footer-1 p {
+            width: 118px;
+            height: 36px;
+            background-color: orangered;
+            padding: 10px 0px 0px 0px;
+            margin:0px 0px 0px 392px;
+            color: #01005A;
+
+        }
+        div.container div.footer-2 {
+            width: 100%;
+            height: 100%;
+            background-color: #01005A;
+            margin-left: 100px;
+            text-align: center;
+
+        }
+        div.container div.footer-2 p {
+            color: white;
+            display: inline-block;
+            padding: 20px 40px 0px 0px;
+        }
+        div.container div.footer-3 {
+            width: 100%;
+            height: 100%;
+            background-color: #01005A;
+            margin-left: 100px;
+            text-align: center;
+            padding: 10px 0px 20px 0px;
+        }
+        div.container div.footer-3 p{
+            color: white;
+            display: inline-block;
+            width: 50px;
+            height: 100%;
+            background-color: aqua;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="logo"><img src="logo.svg"></div>
+<div class="container">
+    <div class="star"><img src="star.svg">Instruction<img src="star.svg"></div>
+    <div class="section">
+        <ul>
+            <li>1 Hiding behind one of these doors is the ChoreBot.</li>
+            <li>2 Your mission is to open all of the doors without running into the ChoreBot.</li>
+            <li>3 If you manage to avoid the ChoreBot until the very last door, you win!</li>
+            <li>4 See if you can score a winning streak!</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <img src="closed_door.svg"> <img src="closed_door.svg"> <img src="closed_door.svg">
+    </div>
+    <div class="footer-1">
+        <p>Good Luck!</p>
+    </div>
+    <div class="footer-2">
+        <p>Current streak:</p>
+        <p>Best streak:</p>
+    </div>
+    <div class="footer-3">
+        <p>0</p>&emsp;&emsp;&emsp;&emsp;
+        <p>0</p>
+    </div>
+</div>
+</body>
+
+</html>
